@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NArrayTree", "NArrayTree\NArrayTree.csproj", "{40273EAC-4200-4D60-8C17-9AD69E21204B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NArrayTreeTest", "UnitTestProject1\NArrayTreeTest.csproj", "{40ABF205-52F7-41FC-A475-8B88C0F16E95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40273EAC-4200-4D60-8C17-9AD69E21204B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40273EAC-4200-4D60-8C17-9AD69E21204B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40273EAC-4200-4D60-8C17-9AD69E21204B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40273EAC-4200-4D60-8C17-9AD69E21204B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40ABF205-52F7-41FC-A475-8B88C0F16E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40ABF205-52F7-41FC-A475-8B88C0F16E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40ABF205-52F7-41FC-A475-8B88C0F16E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40ABF205-52F7-41FC-A475-8B88C0F16E95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {738D1925-EB88-4D28-9F4A-48D13245C4B2}
+	EndGlobalSection
+EndGlobal
