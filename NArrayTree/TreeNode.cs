@@ -70,10 +70,10 @@ namespace NArrayTree
                     TreeNode<T> leafnode = val;
                     while (leafnode.ParentNode != null)
                     {
-                        addAll = addAll + leafnode.Value;
+                        addAll = leafnode.Value + addAll;
                         leafnode = leafnode.ParentNode;
                     }
-                    sum2leafs.Add(addAll + this.Value);
+                    sum2leafs.Add(this.Value + addAll);
                 }
             }
             return sum2leafs;
